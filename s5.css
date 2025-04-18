@@ -1,0 +1,227 @@
+/* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar-header h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.sidebar-nav li {
+    margin-bottom: 20px;
+}
+
+.sidebar-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-nav li a:hover {
+    background-color: #3b4a59;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 30px;
+    width: 100%;
+    overflow: auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #232f3e;
+}
+
+.header p {
+    font-size: 18px;
+    color: #5e5e5e;
+}
+
+.dashboard-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.card h3 {
+    color: #232f3e;
+    font-size: 22px;
+}
+
+.card p {
+    font-size: 28px;
+    color: #4caf50;
+    margin-top: 10px;
+}
+
+.patient-list {
+    margin-top: 30px;
+}
+
+.patient-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.patient-card {
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.patient-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.patient-card h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #232f3e;
+}
+
+.patient-card p {
+    font-size: 14px;
+    color: #5e5e5e;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #232f3e;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+/* Bouton Supprimer */
+/* Bouton Supprimer */
+.delete-btn {
+    background-color: #f44336; /* Rouge */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+.delete-btn {
+    background-color: #f44336; /* Rouge */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Bouton Supprimer */
+.delete-btn {
+    background-color: #f44336; /* Rouge */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
